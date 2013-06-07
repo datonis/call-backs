@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2816A29117611B2E0030FE11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816A29017611B2E0030FE11 /* UIKit.framework */; };
+		2816A29317611B2E0030FE11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816A29217611B2E0030FE11 /* Foundation.framework */; };
+		2816A29517611B2E0030FE11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816A29417611B2E0030FE11 /* CoreGraphics.framework */; };
+		2816A29B17611B2E0030FE11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2816A29917611B2E0030FE11 /* InfoPlist.strings */; };
+		2816A29D17611B2E0030FE11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816A29C17611B2E0030FE11 /* main.m */; };
+		2816A2A117611B2E0030FE11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816A2A017611B2E0030FE11 /* AppDelegate.m */; };
+		2816A2A317611B2E0030FE11 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2816A2A217611B2E0030FE11 /* Default.png */; };
+		2816A2A517611B2E0030FE11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2816A2A417611B2E0030FE11 /* Default@2x.png */; };
+		2816A2A717611B2E0030FE11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2816A2A617611B2E0030FE11 /* Default-568h@2x.png */; };
+		2816A2AA17611B2E0030FE11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816A2A917611B2E0030FE11 /* ViewController.m */; };
+		2816A2AD17611B2E0030FE11 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2816A2AB17611B2E0030FE11 /* ViewController.xib */; };
+		2816A2B517611B2E0030FE11 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816A2B417611B2E0030FE11 /* SenTestingKit.framework */; };
+		2816A2B617611B2E0030FE11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816A29017611B2E0030FE11 /* UIKit.framework */; };
+		2816A2B717611B2E0030FE11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816A29217611B2E0030FE11 /* Foundation.framework */; };
+		2816A2BF17611B2E0030FE11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2816A2BD17611B2E0030FE11 /* InfoPlist.strings */; };
+		2816A2C217611B2E0030FE11 /* CallBacksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816A2C117611B2E0030FE11 /* CallBacksTests.m */; };
+		2816A2CD17611B570030FE11 /* CallBackObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816A2CC17611B570030FE11 /* CallBackObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2816A2B817611B2E0030FE11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2816A28517611B2E0030FE11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2816A28C17611B2E0030FE11;
+			remoteInfo = CallBacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2816A28D17611B2E0030FE11 /* CallBacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallBacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2816A29017611B2E0030FE11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2816A29217611B2E0030FE11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2816A29417611B2E0030FE11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2816A29817611B2E0030FE11 /* CallBacks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CallBacks-Info.plist"; sourceTree = "<group>"; };
+		2816A29A17611B2E0030FE11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2816A29C17611B2E0030FE11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2816A29E17611B2E0030FE11 /* CallBacks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallBacks-Prefix.pch"; sourceTree = "<group>"; };
+		2816A29F17611B2E0030FE11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2816A2A017611B2E0030FE11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2816A2A217611B2E0030FE11 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2816A2A417611B2E0030FE11 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2816A2A617611B2E0030FE11 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2816A2A817611B2E0030FE11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2816A2A917611B2E0030FE11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2816A2AC17611B2E0030FE11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		2816A2B317611B2E0030FE11 /* CallBacksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallBacksTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2816A2B417611B2E0030FE11 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2816A2BC17611B2E0030FE11 /* CallBacksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CallBacksTests-Info.plist"; sourceTree = "<group>"; };
+		2816A2BE17611B2E0030FE11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2816A2C017611B2E0030FE11 /* CallBacksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallBacksTests.h; sourceTree = "<group>"; };
+		2816A2C117611B2E0030FE11 /* CallBacksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallBacksTests.m; sourceTree = "<group>"; };
+		2816A2CB17611B570030FE11 /* CallBackObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallBackObject.h; sourceTree = "<group>"; };
+		2816A2CC17611B570030FE11 /* CallBackObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallBackObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2816A28A17611B2E0030FE11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2816A29117611B2E0030FE11 /* UIKit.framework in Frameworks */,
+				2816A29317611B2E0030FE11 /* Foundation.framework in Frameworks */,
+				2816A29517611B2E0030FE11 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2816A2AF17611B2E0030FE11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2816A2B517611B2E0030FE11 /* SenTestingKit.framework in Frameworks */,
+				2816A2B617611B2E0030FE11 /* UIKit.framework in Frameworks */,
+				2816A2B717611B2E0030FE11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2816A28417611B2E0030FE11 = {
+			isa = PBXGroup;
+			children = (
+				2816A29617611B2E0030FE11 /* CallBacks */,
+				2816A2BA17611B2E0030FE11 /* CallBacksTests */,
+				2816A28F17611B2E0030FE11 /* Frameworks */,
+				2816A28E17611B2E0030FE11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2816A28E17611B2E0030FE11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2816A28D17611B2E0030FE11 /* CallBacks.app */,
+				2816A2B317611B2E0030FE11 /* CallBacksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2816A28F17611B2E0030FE11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2816A29017611B2E0030FE11 /* UIKit.framework */,
+				2816A29217611B2E0030FE11 /* Foundation.framework */,
+				2816A29417611B2E0030FE11 /* CoreGraphics.framework */,
+				2816A2B417611B2E0030FE11 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2816A29617611B2E0030FE11 /* CallBacks */ = {
+			isa = PBXGroup;
+			children = (
+				2816A29F17611B2E0030FE11 /* AppDelegate.h */,
+				2816A2A017611B2E0030FE11 /* AppDelegate.m */,
+				2816A2A817611B2E0030FE11 /* ViewController.h */,
+				2816A2A917611B2E0030FE11 /* ViewController.m */,
+				2816A2AB17611B2E0030FE11 /* ViewController.xib */,
+				2816A2CB17611B570030FE11 /* CallBackObject.h */,
+				2816A2CC17611B570030FE11 /* CallBackObject.m */,
+				2816A29717611B2E0030FE11 /* Supporting Files */,
+			);
+			path = CallBacks;
+			sourceTree = "<group>";
+		};
+		2816A29717611B2E0030FE11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2816A29817611B2E0030FE11 /* CallBacks-Info.plist */,
+				2816A29917611B2E0030FE11 /* InfoPlist.strings */,
+				2816A29C17611B2E0030FE11 /* main.m */,
+				2816A29E17611B2E0030FE11 /* CallBacks-Prefix.pch */,
+				2816A2A217611B2E0030FE11 /* Default.png */,
+				2816A2A417611B2E0030FE11 /* Default@2x.png */,
+				2816A2A617611B2E0030FE11 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2816A2BA17611B2E0030FE11 /* CallBacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				2816A2C017611B2E0030FE11 /* CallBacksTests.h */,
+				2816A2C117611B2E0030FE11 /* CallBacksTests.m */,
+				2816A2BB17611B2E0030FE11 /* Supporting Files */,
+			);
+			path = CallBacksTests;
+			sourceTree = "<group>";
+		};
+		2816A2BB17611B2E0030FE11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2816A2BC17611B2E0030FE11 /* CallBacksTests-Info.plist */,
+				2816A2BD17611B2E0030FE11 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2816A28C17611B2E0030FE11 /* CallBacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2816A2C517611B2E0030FE11 /* Build configuration list for PBXNativeTarget "CallBacks" */;
+			buildPhases = (
+				2816A28917611B2E0030FE11 /* Sources */,
+				2816A28A17611B2E0030FE11 /* Frameworks */,
+				2816A28B17611B2E0030FE11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBacks;
+			productName = CallBacks;
+			productReference = 2816A28D17611B2E0030FE11 /* CallBacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2816A2B217611B2E0030FE11 /* CallBacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2816A2C817611B2E0030FE11 /* Build configuration list for PBXNativeTarget "CallBacksTests" */;
+			buildPhases = (
+				2816A2AE17611B2E0030FE11 /* Sources */,
+				2816A2AF17611B2E0030FE11 /* Frameworks */,
+				2816A2B017611B2E0030FE11 /* Resources */,
+				2816A2B117611B2E0030FE11 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2816A2B917611B2E0030FE11 /* PBXTargetDependency */,
+			);
+			name = CallBacksTests;
+			productName = CallBacksTests;
+			productReference = 2816A2B317611B2E0030FE11 /* CallBacksTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2816A28517611B2E0030FE11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = j;
+			};
+			buildConfigurationList = 2816A28817611B2E0030FE11 /* Build configuration list for PBXProject "CallBacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2816A28417611B2E0030FE11;
+			productRefGroup = 2816A28E17611B2E0030FE11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2816A28C17611B2E0030FE11 /* CallBacks */,
+				2816A2B217611B2E0030FE11 /* CallBacksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2816A28B17611B2E0030FE11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2816A29B17611B2E0030FE11 /* InfoPlist.strings in Resources */,
+				2816A2A317611B2E0030FE11 /* Default.png in Resources */,
+				2816A2A517611B2E0030FE11 /* Default@2x.png in Resources */,
+				2816A2A717611B2E0030FE11 /* Default-568h@2x.png in Resources */,
+				2816A2AD17611B2E0030FE11 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2816A2B017611B2E0030FE11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2816A2BF17611B2E0030FE11 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2816A2B117611B2E0030FE11 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2816A28917611B2E0030FE11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2816A29D17611B2E0030FE11 /* main.m in Sources */,
+				2816A2A117611B2E0030FE11 /* AppDelegate.m in Sources */,
+				2816A2AA17611B2E0030FE11 /* ViewController.m in Sources */,
+				2816A2CD17611B570030FE11 /* CallBackObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2816A2AE17611B2E0030FE11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2816A2C217611B2E0030FE11 /* CallBacksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2816A2B917611B2E0030FE11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2816A28C17611B2E0030FE11 /* CallBacks */;
+			targetProxy = 2816A2B817611B2E0030FE11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2816A29917611B2E0030FE11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2816A29A17611B2E0030FE11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2816A2AB17611B2E0030FE11 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2816A2AC17611B2E0030FE11 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		2816A2BD17611B2E0030FE11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2816A2BE17611B2E0030FE11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2816A2C317611B2E0030FE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2816A2C417611B2E0030FE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2816A2C617611B2E0030FE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallBacks/CallBacks-Prefix.pch";
+				INFOPLIST_FILE = "CallBacks/CallBacks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2816A2C717611B2E0030FE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallBacks/CallBacks-Prefix.pch";
+				INFOPLIST_FILE = "CallBacks/CallBacks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2816A2C917611B2E0030FE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CallBacks.app/CallBacks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallBacks/CallBacks-Prefix.pch";
+				INFOPLIST_FILE = "CallBacksTests/CallBacksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2816A2CA17611B2E0030FE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CallBacks.app/CallBacks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallBacks/CallBacks-Prefix.pch";
+				INFOPLIST_FILE = "CallBacksTests/CallBacksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2816A28817611B2E0030FE11 /* Build configuration list for PBXProject "CallBacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2816A2C317611B2E0030FE11 /* Debug */,
+				2816A2C417611B2E0030FE11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2816A2C517611B2E0030FE11 /* Build configuration list for PBXNativeTarget "CallBacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2816A2C617611B2E0030FE11 /* Debug */,
+				2816A2C717611B2E0030FE11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2816A2C817611B2E0030FE11 /* Build configuration list for PBXNativeTarget "CallBacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2816A2C917611B2E0030FE11 /* Debug */,
+				2816A2CA17611B2E0030FE11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2816A28517611B2E0030FE11 /* Project object */;
+}
